@@ -20,6 +20,11 @@ namespace task.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.massege"Data REcieved";
+            return View();
+        }
+        public IActionResult test( string firstname, string lastname,string email, int phone)
+        {
             return View();
         }
 
